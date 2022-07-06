@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MessageNoteManager.BusinessLogic.Interface\MessageNoteManager.BusinessLogic.Interface.csproj" />
+    <ProjectReference Include="..\MessageNoteManager.DataAccess.Interface\MessageNoteManager.DataAccess.Interface.csproj" />
+    <ProjectReference Include="..\MessageNoteManager.Exceptions\MessageNoteManager.Exceptions.csproj" />
+  </ItemGroup>
+
+</Project>

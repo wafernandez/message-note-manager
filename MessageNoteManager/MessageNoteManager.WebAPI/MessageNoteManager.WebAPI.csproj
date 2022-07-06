@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MessageNoteManager.BusinessLogic.Interface\MessageNoteManager.BusinessLogic.Interface.csproj" />
+    <ProjectReference Include="..\MessageNoteManager.BusinessLogic\MessageNoteManager.BusinessLogic.csproj" />
+    <ProjectReference Include="..\MessageNoteManager.DataAccess.Interface\MessageNoteManager.DataAccess.Interface.csproj" />
+    <ProjectReference Include="..\MessageNoteManager.DataAccess\MessageNoteManager.DataAccess.csproj" />
+    <ProjectReference Include="..\MessageNoteManager.Domain\MessageNoteManager.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
